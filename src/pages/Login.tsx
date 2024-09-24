@@ -20,7 +20,8 @@ function Login() {
                 <h2>Senha</h2>
                 <input type="password" placeholder='Digite sua Senha' required/>
             </div>
-            <button onClick={handleLogin}>LOGIN</button> {/* Chama handleLogin ao clicar */}
+            <button onClick={handleLogin}>LOGIN</button> 
+            <p>OBS: Caso as páginas não abram (Erro 404), abra o link novamente em uma Guia Anônima!</p>
         </div>
     );
 }
